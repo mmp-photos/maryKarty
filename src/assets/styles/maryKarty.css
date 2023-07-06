@@ -1,0 +1,97 @@
+:root {
+    /* COLOR VARIABLES */
+    background-color: black;
+    --heart-color: pink;
+    --body-color: #fc266d;
+    --white: white;
+
+    /* TEXT VARIABLES */
+    --mind-font: aw-conqueror-didot, serif;
+    --heart-font: yink, sans-serif;
+    --body-font: gastromond, sans-serif;
+    --font-family-sans: "Yink", sans-serif;
+    font-size: 16;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    padding-top: 60px;
+    color: pink;
+    font-family: var(--mind-font);
+}
+
+.painting {
+    max-width: 90%;
+}
+
+dialog {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(123, 11, 169, 0.7);
+    border-style: none;
+}
+
+dialog::backdrop {
+    background-color: blue;
+  }
+
+
+.close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+H2 {
+    font-family: var(--body-font);
+    font-size: 1.5em;
+}
+h3 {
+    color: var(--body-color);
+}
+
+.author-photo {
+    margin-left: auto;
+    margin-right: 0px;
+    width: 270px;
+    height: 320px;
+    border-radius: 50%;
+    background-image: url("../images/purple_glitter.jpg");
+    padding-top: 10px;
+    padding-left: 10px;
+
+    > img {
+        width: 250px;
+        height: 300px;
+        background: #a84909;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid var(--white);
+    }
+}
+
+/* ALIGNMENT CLASSES */
+.align-right {
+    text-align: right;
+}
+
+.button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: .5rem;
+}
+
+.button:hover {
+    background-color: var(--heart-color);
+    color: purple;
+}
