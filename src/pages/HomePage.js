@@ -36,7 +36,7 @@ function HomePage() {
             <h3 className="italics">Three 2 One</h3>
             <p>After a recent break-up leaves Claudia in a dissociative state, her Mind, Heart, and Body all manifest to guide her on her quest for love. What will it take to make her whole again?</p>
             <p>This witty, fast-paced romantic comedy about pulling yourself together intimately explores one woman’s thoughts as she searches for connection and unity. </p>
-            <Button type="button" className="button" onClick={() => openInNewTab('https://www.vbotickets.com/v5.0/event.asp?eid=100320&s=654a8e89-bbfc-427e-b9f4-3f9a65334307')}>
+            <Button type="button" className="button" onClick={() => openInNewTab('http://indyfringe.vbotickets.com/event/4b_-_three_2_one/100320')}>
               Get Tickets!
             </Button>
             <Button type="button" className="button" onClick={() => openInNewTab('https://indyfringe.org/festival/festival-tickets-box-office-details/')}>
