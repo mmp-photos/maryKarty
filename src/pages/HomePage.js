@@ -16,6 +16,7 @@ function HomePage() {
         <Col sm={12} md={5} className="offset-1">
           <img src={Logo} alt="Three 2 One show logo" />
           <img className="painting" src={Painting} alt="Painting of 3 multi-colored femme figures entangled on a black background by Sara Rae Cote" />
+          <h2 className="mb12 italics">A show about pulling yourself together.</h2>
           <h3>IndyFRINGE at District Theatre<br/>
           Main Stage.</h3>
        </Col>
@@ -32,6 +33,7 @@ function HomePage() {
             <p>7:15-8:15 p.m.</p>
           <h2>Saturday, September 2</h2>
             <p>8:45-9:45 p.m.</p>
+            <h3 className="italics">Three 2 One</h3>
             <p>After a recent break-up leaves Claudia in a dissociative state, her Mind, Heart, and Body all manifest to guide her on her quest for love. What will it take to make her whole again?</p>
             <p>This witty, fast-paced romantic comedy about pulling yourself together intimately explores one woman’s thoughts as she searches for connection and unity. </p>
             <Button type="button" className="button" onClick={() => openInNewTab('https://www.vbotickets.com/v5.0/event.asp?eid=100320&s=654a8e89-bbfc-427e-b9f4-3f9a65334307')}>

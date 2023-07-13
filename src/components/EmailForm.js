@@ -10,7 +10,7 @@ function EmailForm() {
       if(!dialogDismissed){
         setTimeout(function () { 
           setIsOpen(true)
-          }, 8000);
+          }, 3000);
       }
     };
 
