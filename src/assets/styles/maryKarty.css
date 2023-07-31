@@ -1,6 +1,7 @@
 :root {
     /* COLOR VARIABLES */
-    background-color: black;
+    --bodyColor: "black";
+    --bodyText: "pink";
     --heart-color: pink;
     --body-color: #fc266d;
     --white: white;
@@ -14,10 +15,10 @@
 }
 
 body {
-    background-color: black;
+    background-color: var(--bodyColor);
     display: grid;
     padding-top: 60px;
-    color: pink;
+    color: var(--bodyText);
     font-family: var(--mind-font);
 }
 
@@ -28,10 +29,13 @@ body {
 dialog {
     position: absolute;
     top: 0px;
+    bottom: 0px;
     width: 100%;
+    height: 100%;
     padding-top: 20px;
     text-align: center;
     background-color: rgba(123, 11, 169, 0.7);
+    background-size: cover;
     border-style: none;
 }
 
@@ -102,4 +106,28 @@ h3 {
 .button:hover {
     background-color: var(--heart-color);
     color: purple;
+}
+
+.cast-list {
+    width: 90%;
+}
+
+.headshot {
+    max-width: 150px;
+}
+
+.headshot-column {
+    max-width: 160px;
+}
+
+.poster {
+    width: 300px;
+}
+
+.classlist {
+    width: 90%;
+}
+
+.row {
+    margin-bottom: 2.5rem;
 }

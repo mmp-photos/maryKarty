@@ -15,6 +15,7 @@ function EmailForm() {
     };
 
     const closeDialog = () => {
+        console.log(`Close Dialog.`)
         setdialogDismissed(true);
         setIsOpen(false);
     }

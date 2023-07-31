@@ -4,6 +4,11 @@ import Painting from "../assets/images/painting.png";
 import '../assets/styles/maryKarty.css';
 import EmailForm from "../components/EmailForm";
 import Logo from "../assets/images/threeTwoOneLogo.svg"
+import { setBodyColor } from '../components/SetBodyColor';
+import { setTextColor } from '../components/SetBodyColor';
+
+setBodyColor({color: "black"});
+setTextColor({color: "white"});
 
 function HomePage() {
   const openInNewTab = (url) => {
@@ -11,6 +16,7 @@ function HomePage() {
   };
 
   return (
+    <>
     <Container>
       <Row>
         <Col sm={12} md={5} className="offset-1">
@@ -44,8 +50,9 @@ function HomePage() {
             </Button>
         </Col>
       </Row>
-      <EmailForm />
     </Container>
+    <EmailForm />
+    </>
   );
 }
 
