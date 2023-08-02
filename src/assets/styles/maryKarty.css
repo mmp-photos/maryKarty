@@ -17,7 +17,6 @@
 body {
     background-color: var(--bodyColor);
     display: grid;
-    padding-top: 60px;
     color: var(--bodyText);
     font-family: var(--mind-font);
 }
@@ -82,16 +81,38 @@ h3 {
 .align-right {
     text-align: right;
 }
+.align-right {
+    text-align: right;
+}
 
 .mb12 {
     margin-bottom: 2rem;
 }
-
+.mr2 {
+    margin-right: 2rem;
+}
+.mr-half{
+    margin-right: .5rem;
+}
 .italics {
     font-style: italic;
 }
+.mt2 {
+    margin-top: 2rem;
+}
+.p2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.centered {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
 
 .button {
+    display: block;
     background-color: purple;
     border: none;
     color: white;
@@ -100,7 +121,6 @@ h3 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-right: .5rem;
 }
 
 .button:hover {
@@ -108,20 +128,25 @@ h3 {
     color: purple;
 }
 
-.cast-list {
-    width: 90%;
+
+/* SHOW PAGE STYLES */
+.show-page {
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    padding: 0px;
 }
 
 .headshot {
-    max-width: 150px;
+    width:100%
 }
 
 .headshot-column {
-    max-width: 160px;
+    max-width: 95%;
 }
 
 .poster {
-    width: 300px;
+    width: 100%;
 }
 
 .classlist {

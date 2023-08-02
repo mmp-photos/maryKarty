@@ -10,7 +10,7 @@ import { setTextColor } from '../components/SetBodyColor';
 const showPage = (showPage) => {
 
     const imgPath = "images/"
-    const { title, cast, crew, director, writer, dates, poster, role, showColors } = Three2One;
+    const { title, cast, crew, director, dates, poster, showColors } = Three2One;
     console.log(dates);
 
     setBodyColor({color: showColors.backgroundColor});
@@ -18,15 +18,14 @@ const showPage = (showPage) => {
 
     return(
         <>
-            <Container className="castlist">
+            <Container className="show-page">
                 <Row>
-                    <Col>
+                    <Col sm={12} md={6} className="show-page">
                         <img className="poster" src={imgPath + poster} alt={title.name} />
                     </Col>
-                    <Col>
+                    <Col sm={12} md={6} className="align-left p2">
                         <h1>{title}</h1>
-                        {director.name}
-                        {writer.name}
+                        <h2>Written and Directed By {director.name}</h2>
                         <ShowDates dates={dates} />
                     </Col>
                 </Row>
