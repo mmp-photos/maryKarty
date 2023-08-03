@@ -111,13 +111,6 @@ const Three2One = {
                             website: 'https://www.msm.codes'
                         }
                     ]
-                },
-                {
-                    name: 'Lola Lavacious',
-                    image: 'lola_lavacious.png',
-                    role: 'Intimacy Coordinator',
-                    bio: `Lola has been an arts facilitator in Indianapolis for more than a decade. She is the host and emcee of RAW Natural Born Artists. She has organized events including Girl Pride and Oranje.  Lola played the role of Lucy in Southbank Theatre Company's 'The Profession' and served as the show's Intimacy Director.`,
-                    socials: []
                 }
             ]
     };

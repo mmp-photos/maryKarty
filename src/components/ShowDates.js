@@ -17,7 +17,7 @@ function ShowDates({ dates }) { // Destructure 'dates' from props here
             return <li key={index}>{formattedDate}</li>; 
           })}
         </ul>
-        <div className="centered">
+        <div className="sm-centered">
           <Button type="button" className="button" onClick={() => OpenNewWindow('http://indyfringe.vbotickets.com/event/4b_-_three_2_one/100320')}>
               Get Tickets!
           </Button>

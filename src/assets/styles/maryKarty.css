@@ -12,6 +12,31 @@
     --body-font: gastromond, sans-serif;
     --font-family-sans: "Yink", sans-serif;
     font-size: 16;
+
+    /* ALIGNMENT VARIABLES */
+    --sm-centered: left;
+}
+
+@media (max-width: 800px) {  /* MOBILE SITE VARIABLES */
+
+    :root {
+        /* COLOR VARIABLES */
+        --bodyColor: "black";
+        --bodyText: "pink";
+        --heart-color: pink;
+        --body-color: #fc266d;
+        --white: white;
+    
+        /* TEXT VARIABLES */
+        --mind-font: aw-conqueror-didot, serif;
+        --heart-font: yink, sans-serif;
+        --body-font: gastromond, sans-serif;
+        --font-family-sans: "Yink", sans-serif;
+        font-size: 16;
+    
+        /* ALIGNMENT VARIABLES */
+        --sm-centered: center;
+    }
 }
 
 body {
@@ -109,6 +134,10 @@ h3 {
     display: block;
     width: 100%;
     text-align: center;
+}
+
+.sm-centered {
+    text-align: var(--sm-centered);
 }
 
 .button {

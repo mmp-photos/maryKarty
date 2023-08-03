@@ -45,9 +45,11 @@ function HomePage() {
             <Button type="button" className="button mr-half" onClick={() => openInNewTab('http://indyfringe.vbotickets.com/event/4b_-_three_2_one/100320')}>
               Get Tickets!
             </Button>
-            <Button type="button" className="button" onClick={() => openInNewTab('https://indyfringe.org/festival/festival-tickets-box-office-details/')}>
-              Flex Pass
-            </Button>
+            <a href="/show">
+              <Button type="button" className="button">
+                Meet the Cast
+              </Button>
+            </a>
         </Col>
       </Row>
     </Container>
